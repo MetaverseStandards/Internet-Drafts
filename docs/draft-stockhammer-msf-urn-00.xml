@@ -57,7 +57,7 @@
 		<workgroup>Internet Engineering Task Force</workgroup>
 		<keyword>URN, Metaverse, Registration, Namespace</keyword>
 		<abstract>
-			<t>This document describes the Namespace Identifier (NID) 'cablelabs' for Uniform Resource Names (URNs) used to identify resources published by Metaverse Standards Forum. The forum specifies and manages resources that utilize this URN identification model. Example resources include ressources, eXtensible Markup Language (XML) Schemas, classification schemes, XML Document Type Definitions (DTDs), namespaces, style sheets, and other types of resources produced or managed by the Metaverse Standards Forum.</t>
+			<t>This document describes the Namespace Identifier (NID) 'metaverse-standards-org' for Uniform Resource Names (URNs) used to identify resources published by Metaverse Standards Forum. The forum specifies and manages resources that utilize this URN identification model. Example resources include ressources, eXtensible Markup Language (XML) Schemas, classification schemes, XML Document Type Definitions (DTDs), namespaces, style sheets, and other types of resources produced or managed by the Metaverse Standards Forum.</t>
 		</abstract>
 	</front>
 	<middle>
