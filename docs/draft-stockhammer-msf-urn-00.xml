@@ -88,6 +88,10 @@
 							<td>URN</td>
 							<td>Uniform Resource Name</td>
 						</tr>
+						<tr>
+							<td>SRDG</td>
+							<td>Standards Register Domain Group</td>
+						</tr>
 					</tbody>
 				</table>
 			</section>
@@ -114,26 +118,36 @@
 				<dd>
 					<t>The Namespace Specific String (NSS) of all URNs that use the Metaverse Standards NID will have the following structure:</t>
 					<t>urn:ieee:{MSFresource}:{ResourceSpecificString}</t>
-					<t>where "MSFresource" is a US-ASCII string that conforms to the URN syntax requirements <xref target="RFC2141" format="default" sectionFormat="of" derivedContent="RFC2141"/> and defines a specific class of resource type. Each resource type has a specific labeling scheme that is covered by "ResourceSpecificString", which also conforms to the naming requirements [RFC2141].</t>
+					<t>where "MSFresource" is a US-ASCII string that conforms to the URN syntax requirements [RFC2141] and defines a specific class of resource type. Each resource type has a specific labeling scheme that is covered by "ResourceSpecificString", which also conforms to the naming requirements [RFC2141].</t>
+					<t>The Metaverse Standards Forum maintains a registration procedure within the Standards Register Domain Group (SRDG) that will manage the assignment of "MSFresource" and the specific registration values assigned foreach resource class.</t>
 				</dd>
 				<dt>Relevant ancillary documentation:</dt>
-				<dd>registration date: 2023-12-25</dd>
+				<dd>none</dd>
 				<dt>Identifier uniqueness considerations:</dt>
-				<dd>registration date: 2023-12-25</dd>
+				<dd>
+					<t>The SRDG of the MSF manages resources using the "metaverse-standards-org" NID and will be the authority for managing the resources and subsequent strings associated.  In the associated procedures, SRDG will ensure the uniqueness of the strings themselves or shall permit secondary responsibility for the management of well-defined sub-trees.</t> 
+					<t>The MSF may permit the use of experimental type values that will not be registered.  As a consequence, multiple users may end up using the same value for separate uses.  As experimental usage is only intended for testing purposes, this should not be a real issue.</t> 
+				</dd>
 				<dt>Identifier persistence considerations:</dt>
-				<dd>registration date: 2023-12-25</dd>
+				<dd>
+					<t>The MSF provides clear documentation on a number of the registered uses of the "metaverse-standards-org" NID.  Additional uses developed by the MSF membership in the future will be first approved by the SRDG and then by the entire MSF voting membership. This is the normal process for all MSF permanent resources for use by the community.</t>
+					<t>The SRDG maintains a permanent registry of approved uses.  This resource is structured such that each "MSFresource" has a separate description and registration table.</t>
+					<t>The registration tables and information are published and maintained by the SRDG on the MSF web site.</t>
+				</dd>
 				<dt>Process of identifier assignment:</dt>
-				<dd>registration date: 2023-12-25</dd>
+				<dd>
+					<t>The SRDG uses the approved MSF policies and procedures for discussion, approval, and registration of each type of resource maintained.</t>
+				</dd>
 				<dt>Process for identifier resolution:</dt>
-				<dd>registration date: 2023-12-25</dd>
+					<dd>The namespace is not listed with an RDS; this is not relevant.</dd>
 				<dt>Rules for lexical equivalence:</dt>
-				<dd>No special considerations; the rules for lexical equivalence of [RFC2141] apply.</dd>
+					<dd>No special considerations; the rules for lexical equivalence of [RFC2141] apply.</dd>
 				<dt>Conformance with URN syntax:</dt>
-				<dd>No special considerations.</dd>
+					<dd>No special considerations.</dd>
 				<dt>Validation mechanism:</dt>
-				<dd>None specified.URN assignment will be handled by procedures implemented in support of Metaverse Standards Forum activities.</dd>
+					<dd>None specified. URN assignment will be handled by procedures implemented in support of Metaverse Standards Forum activities.</dd>
 				<dt>Scope:</dt>
-				<dd>Global</dd>
+					<dd>Global</dd>
 			</dl>
 		</section>
 		<section>
