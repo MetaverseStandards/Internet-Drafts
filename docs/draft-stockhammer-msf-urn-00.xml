@@ -57,7 +57,7 @@
 		<workgroup>Internet Engineering Task Force</workgroup>
 		<keyword>URN, Metaverse, Registration, Namespace</keyword>
 		<abstract>
-			<t>This document describes the Namespace Identifier (NID) 'metaverse-standards-org' for Uniform Resource Names (URNs) used to identify resources published by Metaverse Standards Forum. The forum specifies and manages resources that utilize this URN identification model. Example resources include ressources, eXtensible Markup Language (XML) Schemas, classification schemes, XML Document Type Definitions (DTDs), namespaces, style sheets, and other types of resources produced or managed by the Metaverse Standards Forum.</t>
+			<t>This document describes the Namespace IDentifier (NID) 'metaverse-standards-org' for Uniform Resource Names (URNs) used to identify resources published by Metaverse Standards Forum. The forum specifies and manages resources that utilize this URN identification model. Example resources include ressources, eXtensible Markup Language (XML) Schemas, classification schemes, XML Document Type Definitions (DTDs), namespaces, style sheets, and other types of resources produced or managed by the Metaverse Standards Forum.</t>
 		</abstract>
 	</front>
 	<middle>
@@ -79,6 +79,10 @@
 						<tr>
 							<td>MSF</td>
 							<td>Metaverse Standards Forum</td>
+							<td>NID</td>
+							<td>Namespace IDentifier</td>
+							<td>URN</td>
+							<td>Uniform Resource Name</td>
 						</tr>
 					</tbody>
 				</table>
@@ -86,16 +90,28 @@
 		</section>
 		<section>
 			<name>URN Specification for Metaverse Standards Forum</name>
-			<dl newline="true">
-				<!-- Omit newline="true" if you want each definition to start on the same line as the corresponding term -->
+			<dl newline="true" spacing="normal">
 				<dt>Namespace ID:</dt>
 				<dd>metaverse-standards-org</dd>
 				<dt>Registration Information:</dt>
-				<dd>registration version number: 1</dd>
+				<dd>       
+					<t>registration version number: 1</t>
+      				<t>registration date: 2023-12-25</t>
+				</dd>
 				<dt>Declared registrant of the namespace:</dt>
-				<dd>Registering organization</dd>
+				<dd>
+					<t>Registering organization:</t>
+     				<t>Name: Metaverse Standards Forum</t>
+      				<t>Address: 9450 SW Gemini Drive #16821, Beaverton, OR 97008 USA</t>
+					<t>Designated Contact:</t>
+					<t>Namespace Manager, standards_registry-feedback@lists.metaverse-standards.org</t>
+				</dd>
 				<dt>Declaration of syntactic structure:</dt>
-				<dd>registration date: 2023-12-25</dd>
+				<dd>
+					<t>The Namespace Specific String (NSS) of all URNs that use the Metaverse Standards NID will have the following structure:</t>
+					<t>urn:ieee:{MSFresource}:{ResourceSpecificString}</t>
+					<t>where "MSFresource" is a US-ASCII string that conforms to the URN syntax requirements [RFC2141] and defines a specific class of resource type. Each resource type has a specific labeling scheme that is covered by "ResourceSpecificString", which also conforms to the naming requirements [RFC2141].</t>
+				</dd>
 				<dt>Relevant ancillary documentation:</dt>
 				<dd>registration date: 2023-12-25</dd>
 				<dt>Identifier uniqueness considerations:</dt>
