@@ -118,7 +118,7 @@
 				<dd>
 					<t>The Namespace Specific String (NSS) of all URNs that use the Metaverse Standards NID will have the following structure:</t>
 					<t>urn:ieee:{MSFresource}:{ResourceSpecificString}</t>
-					<t>where "MSFresource" is a US-ASCII string that conforms to the URN syntax requirements [RFC2141] and defines a specific class of resource type. Each resource type has a specific labeling scheme that is covered by "ResourceSpecificString", which also conforms to the naming requirements [RFC2141].</t>
+					<t>where "MSFresource" is a US-ASCII string that conforms to the URN syntax requirements [RFC 2141] and defines a specific class of resource type. Each resource type has a specific labeling scheme that is covered by "ResourceSpecificString", which also conforms to the naming requirements [RFC2141].</t>
 					<t>The Metaverse Standards Forum maintains a registration procedure within the Standards Register Domain Group (SRDG) that will manage the assignment of "MSFresource" and the specific registration values assigned foreach resource class.</t>
 				</dd>
 				<dt>Relevant ancillary documentation:</dt>
