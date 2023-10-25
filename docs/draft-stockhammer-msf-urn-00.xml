@@ -118,7 +118,7 @@
 				<dd>
 					<t>The Namespace Specific String (NSS) of all URNs that use the Metaverse Standards NID will have the following structure:</t>
 					<t>urn:ieee:{MSFresource}:{ResourceSpecificString}</t>
-					<t>where "MSFresource" is a US-ASCII string that conforms to the URN syntax requirements [RFC2141] and defines a specific class of resource type. Each resource type has a specific labeling scheme that is covered by "ResourceSpecificString", which also conforms to the naming requirements [RFC2141].</t>
+					<t>where "MSFresource" is a US-ASCII string that conforms to the URN syntax requirements [RFC8141] and defines a specific class of resource type. Each resource type has a specific labeling scheme that is covered by "ResourceSpecificString", which also conforms to the naming requirements [RFC8141].</t>
 					<t>The Metaverse Standards Forum maintains a registration procedure within the Standards Register Domain Group (SRDG) that will manage the assignment of "MSFresource" and the specific registration values assigned foreach resource class.</t>
 				</dd>
 				<dt>Relevant ancillary documentation:</dt>
@@ -141,7 +141,7 @@
 				<dt>Process for identifier resolution:</dt>
 					<dd>The namespace is not listed with an RDS; this is not relevant.</dd>
 				<dt>Rules for lexical equivalence:</dt>
-					<dd>No special considerations; the rules for lexical equivalence of [RFC2141] apply.</dd>
+					<dd>No special considerations; the rules for lexical equivalence of [RFC8141] apply.</dd>
 				<dt>Conformance with URN syntax:</dt>
 					<dd>No special considerations.</dd>
 				<dt>Validation mechanism:</dt>
@@ -173,7 +173,7 @@
 		<section anchor="Security">
 			<!-- All drafts are required to have a security considerations section. See RFC 3552 for a guide. -->
 			<name>Security Considerations</name>
-			<t>There are no additional security considerations other than those normally associated with the use and resolution of URNs in general, which are described in [RFC1737], [RFC2141], and [RFC8141].</t>
+			<t>There are no additional security considerations other than those normally associated with the use and resolution of URNs in general, which are described in [RFC1737], and [RFC8141].</t>
 		</section>
 		<!-- NOTE: The Acknowledgements and Contributors sections are at the end of this template -->
 	</middle>
@@ -184,8 +184,6 @@
 				<name>Normative References</name>
 				<xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.1737.xml"/>
 				<xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.2141.xml"/>
-				<xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.6289.xml"/>
-				<xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8141.xml"/>
 				<!-- The recommended and simplest way to include a well known reference -->
 			</references>
 		</references>
@@ -193,7 +191,7 @@
 		         numbered="false">
 			<!-- [REPLACE/DELETE] an Acknowledgements section is optional -->
 			<name>Acknowledgements</name>
-			<t>The authors wish to thank XXX for their useful comments and suggestions. The authors also acknowledge that the text from [RFC6289] formed the basis for the initial version of this document.</t>
+			<t>The authors wish to thank XXX for their useful comments and suggestions. The authors also acknowledge that the text from RFC6289 formed the basis for the initial version of this document.</t>
 		</section>
 	</back>
 </rfc>
