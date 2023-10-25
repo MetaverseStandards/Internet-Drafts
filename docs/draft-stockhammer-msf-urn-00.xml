@@ -79,8 +79,12 @@
 						<tr>
 							<td>MSF</td>
 							<td>Metaverse Standards Forum</td>
+						</tr>
+						<tr>
 							<td>NID</td>
 							<td>Namespace IDentifier</td>
+						</tr>
+						<tr>
 							<td>URN</td>
 							<td>Uniform Resource Name</td>
 						</tr>
