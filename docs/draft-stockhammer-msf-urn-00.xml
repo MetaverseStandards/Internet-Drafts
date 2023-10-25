@@ -112,9 +112,9 @@
 				</dd>
 				<dt>Declaration of syntactic structure:</dt>
 				<dd>
-					<dt>The Namespace Specific String (NSS) of all URNs that use the Metaverse Standards NID will have the following structure:</dt>
-					<dd>urn:ieee:{MSFresource}:{ResourceSpecificString}</dd>
-					<t>where "MSFresource" is a US-ASCII string that conforms to the URN syntax requirements [RFC2141] and defines a specific class of resource type. Each resource type has a specific labeling scheme that is covered by "ResourceSpecificString", which also conforms to the naming requirements [RFC2141].</t>
+					<t>The Namespace Specific String (NSS) of all URNs that use the Metaverse Standards NID will have the following structure:</t>
+					<t>urn:ieee:{MSFresource}:{ResourceSpecificString}</t>
+					<t>where "MSFresource" is a US-ASCII string that conforms to the URN syntax requirements <xref target="RFC2141" format="default" sectionFormat="of" derivedContent="RFC2141"/> and defines a specific class of resource type. Each resource type has a specific labeling scheme that is covered by "ResourceSpecificString", which also conforms to the naming requirements [RFC2141].</t>
 				</dd>
 				<dt>Relevant ancillary documentation:</dt>
 				<dd>registration date: 2023-12-25</dd>
